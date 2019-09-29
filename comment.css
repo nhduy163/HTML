@@ -1,0 +1,88 @@
+.comment {
+	height: 200px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	align-items: center;
+	position: relative;
+}
+.add-comment {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+.form-comment {
+	display: flex;
+	margin-left: 16px;
+	justify-content: center;
+	align-items: center;
+	margin: 19px 0;
+}
+
+.text-comment {
+	max-height: 80px;
+	height: 18px;
+	border: none;
+	display: inline;
+	flex-grow: 9;
+	font-size: inherit;
+	resize: none;
+	outline: none;
+	margin-left: 16px;
+	opacity: 0.3px;
+}
+button {
+	color: #3897f0;
+	flex-grow: 1;
+	display: inline;
+	padding: 0;
+	border: 0;
+	background-color: #fff;
+	opacity: .3;
+}
+
+.action {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding: 0 16px;
+	position: relative;
+}
+
+.action .fa-heart-o {
+	color: #262626;
+	font-size: 30px;
+	opacity: .8;
+	margin-right: 5px;
+}
+.action .fa-comment-o {
+	color: #262626;
+	font-size: 32px;
+	opacity: .8;
+	margin-right: 5px;
+}
+.action .fa-share-square-o {
+	color: #262626;
+	font-size: 32px;
+	opacity: .8;
+	flex-grow: 1;
+	vertical-align: text-bottom;
+	position: relative;
+	top: 3px;
+}
+.action .fa-bookmark-o {
+	color: #262626;
+	font-size: 32px;
+	opacity: .8;
+}
+
+.likes {
+	color: #262626;
+	padding: 0 16px;
+	margin: 3px;
+	font: inherit;
+    vertical-align: baseline;
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,0 +1,45 @@
+.post-list {
+	display: grid;
+	grid-template-columns: 614px 219px;
+	justify-content: center;
+	grid-gap: 28px;
+	padding-top: 110px;
+}
+.post {
+	height: 60px
+}
+.user {
+	height: 60px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	display: flex;
+	align-items: center;
+}
+.user .user-name {
+	text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight:bold;
+    color: #262626;
+    flex-grow: 1;
+    margin-left: 12px;
+}
+
+.user .fa-user-circle-o{
+	font-size: 32px;
+	margin-left: 15px;
+}
+.user .post-config {
+	text-decoration: none;
+	font-family: inherit;
+	font-size: 20px;
+	font-weight:bold;
+	margin-right:18px;
+}
+.post-image {
+	margin: 0;
+}
+.post-image img {
+	width: 100%;
+	vertical-align: top;
+}
