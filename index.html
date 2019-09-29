@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="post.css">
+	<link rel="stylesheet" type="text/css" href="comment.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header class="header">
+	  <div class="logo">
+	    <a href="#">
+	      <img src="img/logo.svg" alt="Instagram" class="logo-imagen">
+	      <img src="img/logo-letter.png" alt="" class="logo-texto">
+	    </a>
+	  </div>
+	  <div class="search-container">
+	    <div class="search">
+	      <img class="fa fa-search" src="img/magnifying-glass.svg"></i>
+	      <input type="text" placeholder="Search">
+	    </div>
+	  </div>
+	  <div class="icons">
+	    <a href="#"><i class="fa fa-wpexplorer"></i></a>
+	    <a href="#"><i class="fa fa-heart-o"></i></a>
+	    <a href="#"><i class="fa fa-user-o"></i></a>
+	  </div>
+	</header>
+	<section class="post-list">
+	  <div class="post">
+	  	<div class="user">
+	  		<i class="fa fa-user-circle-o"></i>
+	  		<a class="user-name" href="#">Username</a>
+	  		<a class="post-config" href="#">...</a> 	
+	  	</div>
+	    <figure class="post-image">
+	      <img src="img/pogba.jpg" alt="">
+	    </figure>
+	    <div class="comment">
+	    	<header class="action">
+	    		<i class="fa fa-heart-o"></i>
+	    		<i class="fa fa-comment-o"></i>
+	    		<i class="fa fa-share-square-o"></i>
+	    		<i class="fa fa-bookmark-o"></i>	    	
+	    	</header>
+	    	<p class="likes">12,345 likes</p>
+	    	<div class="add-comment">
+		    	<form class="form-comment">
+		    		<textarea class="text-comment" placeholder="Add a comment..." autocomplete="off" autocorrect="off" ></textarea>
+		    		<button disabled type="submit">Post</button>
+		    	</form>
+		    </div>
+	    </div>
+	  </div>
+	</section>
+
+</body>
+</html>
